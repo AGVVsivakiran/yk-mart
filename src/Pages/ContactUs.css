@@ -1,0 +1,42 @@
+.contact-info-card {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+}
+
+.contact-info-card h3 {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.contact-info-card h5 {
+    font-weight: 600;
+    color: #333;
+}
+
+.icon-box {
+    width: 40px;
+}
+
+.contact-form-card h3 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    transform: translateY(-2px);
+}

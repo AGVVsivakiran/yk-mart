@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/logo.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <!-- Allow Razorpay payment iframe features in production -->
+  <meta http-equiv="Permissions-Policy"
+    content="accelerometer=*, camera=*, geolocation=*, gyroscope=*, magnetometer=*, microphone=*, payment=*, usb=*" />
+  <meta name="theme-color" content="#2d8a4e" />
+
+  <!-- Open Graph / SEO: Dynamic tags injected by React Helmet or Prerender Server -->
+  <title>YK Mart | Premium Organic Agri Products</title>
+  <meta name="description"
+    content="YK Mart: India's premier destination for certified organic agri products, botanical bio-pesticides, and natural farming solutions. Discover our range of organic fertilizers, virucides, and fresh farm-to-market produce." />
+  <meta name="keywords"
+    content="YK Mart, Organic Agri Products, Natural Farming Solutions, Immuno, Cyto-cureal, Yantra, Vaayu, Enviro, Soilox, Aayush, Impel, Fost, Rootex, Immuno-plant, Cyto-Botanical, Cyto Labs, Botanical Virucides, Natural Fungicides, Botanical Insecticides, Organic Manure, Fertilizer, Nano Silver ppm, Sustainable Agriculture, Natural Pest Control, Organic Crop Protection, Agri-commerce India, Organic Turmeric, Organic Chili, Organic Paddy, Organic Millets" />
+  <link rel="canonical" href="https://ykmart.in/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="YK Mart" />
+  <meta property="og:title" content="YK Mart | Premium Organic Agri Products" />
+  <meta property="og:description"
+    content="YK Mart delivers certified organic botanical products, bio-pesticides, and natural farming solutions formulated from medicinal plants for sustainable agriculture and wellness." />
+  <meta property="og:image" content="https://ykmart.in/logo.png" />
+  <meta property="og:url" content="https://ykmart.in/" />
+
+
+  <!-- ===== Apple & PWA ===== -->
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.jpg" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <!-- ===== Google Fonts ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ===== JSON-LD: Organization Schema ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "YK Mart",
+    "url": "https://ykmart.in",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ykmart.in/logo.png"
+    },
+    "description": "YK Mart delivers certified organic botanical virucides, fungicides, and insecticides formulated from medicinal plants to control bacterial and fungal growth naturally.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "areaServed": "IN",
+      "availableLanguage": ["English", "Telugu", "Hindi"]
+    },
+    "sameAs": [
+      "https://ykmart.in"
+    ]
+  }
+  </script>
+
+  <!-- ===== JSON-LD: WebSite Schema (enables Google Sitelinks Search) ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "YK Mart",
+    "url": "https://ykmart.in",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://ykmart.in/category/{search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- ===== Bootstrap CSS ===== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- ===== Bootstrap Bundle with Popper ===== -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Google Analytics (GA4) -->
+
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YYY2LE5QM7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-YYY2LE5QM7');
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-LLWPSYWM9X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-LLWPSYWM9X'); -->
+  </script>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-B518X3TT40"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-B518X3TT40');
+  </script> -->
+  <!-- google search console verification -->
+  <meta name="google-site-verification" content="95IexZRIZVcTUcfzmqrJHiMxCtFLPcjFlvWRIrD0-IA" />
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+  <!-- n8n Chat Widget -->
+  <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+  <style>
+    :root {
+      --chat--color--primary: #2d8a4e !important;
+      --chat--color--secondary: #2d8a4e !important;
+      --chat--header--background: transparent !important;
+      --chat--body--background: #e9f5e9 !important;
+      --chat--window--border-radius: 20px !important;
+    }
+
+    .chat-window {
+      overflow: hidden !important;
+      border: 1px solid #ddd !important;
+      position: relative !important;
+      background-color: #e9f5e9 !important;
+    }
+
+    /* Green top bar from screenshot */
+    .chat-window::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 5px;
+      background-color: #2d8a4e;
+      z-index: 100;
+    }
+
+    .chat-header {
+      background-color: #e9f5e9 !important;
+      border: none !important;
+      height: 10px !important;
+      /* Decreased to move messages up */
+      padding: 0 !important;
+      position: relative !important;
+    }
+
+    .chat-header h1,
+    .chat-header p {
+      display: none !important;
+    }
+
+    .chat-close-button {
+      background-color: #3e4b5b !important;
+      color: #ffffff !important;
+      border-radius: 50% !important;
+      width: 26px !important;
+      height: 26px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      position: absolute !important;
+      top: 10px !important;
+      right: 15px !important;
+      z-index: 101 !important;
+      padding: 0 !important;
+      opacity: 0.9;
+    }
+
+    .chat-messages-list {
+      background-color: #e9f5e9 !important;
+      padding: 10px 15px !important;
+      margin-top: 0 !important;
+      /* Ensure it starts at the top */
+    }
+
+    .chat-message.chat-message-from-bot {
+      background-color: #ffffff !important;
+      border-left: 4px solid #2d8a4e !important;
+      border-radius: 5px 20px 20px 20px !important;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06) !important;
+      margin-left: 55px !important;
+      padding: 10px 18px !important;
+      position: relative !important;
+      margin-bottom: 15px !important;
+      border-top: none !important;
+      border-right: none !important;
+      border-bottom: none !important;
+      overflow: visible !important;
+    }
+
+    .chat-message.chat-message-from-bot::before {
+      content: "" !important;
+      position: absolute !important;
+      left: -55px !important;
+      top: 0 !important;
+      width: 38px !important;
+      height: 38px !important;
+      background-image: url('/nathan_avatar.webp') !important;
+      background-size: cover !important;
+      border-radius: 50% !important;
+      background-position: center !important;
+      display: block !important;
+    }
+
+    .chat-messages-list {
+      overflow-x: visible !important;
+    }
+
+    .chat-message.chat-message-from-user {
+      border-radius: 20px 20px 5px 20px !important;
+      background-color: #2d8a4e !important;
+      padding: 10px 18px !important;
+    }
+
+    .chat-buttons-list,
+    [class*="_buttons_"] {
+      padding: 5px 0 !important;
+      gap: 8px !important;
+      justify-content: flex-start !important;
+    }
+
+    .chat-button {
+      background-color: #ffffff !important;
+      border: 1px solid #2d8a4e !important;
+      border-radius: 25px !important;
+      color: #333333 !important;
+      padding: 6px 18px !important;
+      font-size: 0.85rem !important;
+      font-weight: 500 !important;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+    }
+
+    /* Input Styling - SURROUNDING AREA LIGHT GREEN */
+    .chat-input-container,
+    .chat-footer-container {
+      background-color: #e9f5e9 !important;
+    }
+
+    .chat-inputs {
+      background-color: #ffffff !important;
+      border-radius: 30px !important;
+      margin: 5px 15px 10px 15px !important;
+      padding: 2px 8px 2px 18px !important;
+      border: 1px solid #eee !important;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important;
+      min-height: 38px !important;
+    }
+
+    .chat-inputs textarea {
+      height: 34px !important;
+      padding: 6px 0 !important;
+      font-size: 15px !important;
+      font-weight: 600 !important;
+    }
+
+    .chat-input-send-button {
+      background-color: #2d8a4e !important;
+      color: #ffffff !important;
+      border-radius: 50% !important;
+      width: 36px !important;
+      height: 36px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+
+    .chat-footer {
+      background-color: #ffffff !important;
+      padding: 6px 10px !important;
+      border-top: 1px solid #f0f0f0 !important;
+      text-align: center !important;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      font-size: 12px !important;
+      color: #000000 !important;
+      display: block !important;
+      visibility: visible !important;
+      min-height: 24px !important;
+    }
+
+    .chat-footer::before {
+      display: none !important;
+    }
+
+    .chat-powered-by::before {
+      content: "●";
+      color: #4caf50;
+      margin-right: 6px;
+      font-size: 10px;
+    }
+
+    .chat-footer a {
+      color: #000000 !important;
+      text-decoration: none !important;
+    }
+
+    .chat-powered-by {
+      color: #000000 !important;
+      font-size: 12px !important;
+    }
+
+    .chat-powered-by a {
+      color: #000000 !important;
+      text-decoration: none !important;
+    }
+
+    /* Custom status text injected below input */
+    .yk-support-status {
+      text-align: center;
+      font-size: 12px;
+      color: #000000;
+      margin-top: 4px;
+      padding: 0 0 2px 0;
+      font-family: inherit;
+      background-color: #ffffff;
+    }
+
+    .yk-support-status::before {
+      content: "●";
+      color: #4caf50;
+      margin-right: 6px;
+      font-size: 10px;
+    }
+
+    .chat-window-wrapper {
+      bottom: 20px !important;
+      right: 20px !important;
+    }
+
+    /* Customize Chat Launcher Icon */
+    .chat-launcher {
+      background-color: #2d8a4e !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+
+    .chat-launcher svg {
+      display: none !important;
+    }
+
+    .chat-launcher::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-image: url('/nathan_avatar.webp') !important;
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+      display: block;
+    }
+  </style>
+  <script type="module">
+    import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+    createChat({
+      webhookUrl: 'https://n8n.gagriworkflows.in/webhook/a6f06d0b-fcb7-418f-9a86-eb121278aabe/chat',
+      initialMessages: [
+        'Hi there! 👋',
+        'Welcome to YKMart Bot Assistant!',
+        'I\'m here to help you find products and answer your questions.',
+        '🌐 Languages Available: हिन्दी | తెలుగు | English'
+      ],
+      i18n: {
+        en: {
+          title: 'Hi there! 👋',
+          subtitle: "Start a chat. We're here to help you 24/7.",
+          footer: 'YK Mart Support . Online',
+          inputPlaceholder: 'Type your question..',
+        }
+      }
+    });
+
+    // Inject status text below input box as a fallback
+    const observer = new MutationObserver(() => {
+      const chatInput = document.querySelector('.chat-input');
+      if (chatInput && !chatInput.querySelector('.yk-support-status')) {
+        const statusEl = document.createElement('div');
+        statusEl.className = 'yk-support-status';
+        statusEl.textContent = 'YK Mart Support . Online';
+        chatInput.appendChild(statusEl);
+      }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  </script>
+</body>
+
+</html>

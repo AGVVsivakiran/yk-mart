@@ -1,0 +1,5 @@
+{
+    "baseUrl": "https://ykmart.in/webservices",
+    "TOKEN": "your-secure-api-key",
+    "razorpayKey": "rzp_live_RIZPF3e12Rh212"
+}

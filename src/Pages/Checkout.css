@@ -1,0 +1,119 @@
+.checkout-container {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.checkout-card {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.form-label {
+    font-weight: 500;
+    color: #495057;
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    border: 1px solid #ced4da;
+    transition: all 0.2s;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.15);
+}
+
+.summary-card {
+    position: sticky;
+    top: 20px;
+}
+
+.item-row {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .checkout-container {
+        padding-top: 1rem;
+    }
+}
+
+.address-card {
+    border: 2px solid #eee;
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    background: white;
+}
+
+.address-card:hover {
+    border-color: #28a745;
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.1);
+}
+
+.address-card.selected {
+    border-color: #28a745;
+    background-color: #f0fff4;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.15);
+}
+
+.address-card .form-check-input:checked {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.add-address-btn {
+    border: 2px dashed #ccc;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #666;
+    background: #fdfdfd;
+}
+
+.add-address-btn:hover {
+    border-color: #28a745;
+    color: #28a745;
+    background: #f0fff4;
+}
+
+.delete-addr-btn {
+    opacity: 0.6;
+    transition: all 0.2s ease;
+    z-index: 10;
+}
+
+.delete-addr-btn:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    color: #dc3545 !important;
+}
+
+.address-card .form-check-input {
+    cursor: pointer;
+}

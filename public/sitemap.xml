@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+    <loc>https://ykmart.in/</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Static Pages -->
+  <url>
+    <loc>https://ykmart.in/about-us</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://ykmart.in/contact-us</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://ykmart.in/privacy-policy</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://ykmart.in/terms-conditions</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.50</priority>
+  </url>
+
+  <!-- Commerce Main Pages -->
+  <url>
+    <loc>https://ykmart.in/orders</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://ykmart.in/track</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+</urlset>

@@ -1,0 +1,24 @@
+.privacy-content {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.privacy-content section {
+    margin-bottom: 2rem;
+}
+
+.privacy-content h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.privacy-content ul {
+    padding-left: 20px;
+}
+
+.privacy-content li {
+    margin-bottom: 0.5rem;
+}

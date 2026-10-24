@@ -1,0 +1,55 @@
+.about-content h1 {
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.about-content h3 {
+    color: #27ae60;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.about-content p {
+    line-height: 1.7;
+    color: #555;
+    font-size: 1.05rem;
+}
+
+.about-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-content ul li {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%2327ae60" class="bi bi-check-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>') no-repeat left center;
+    background-size: 1.2rem;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #444;
+}
+
+.aboutlogo {
+    background-color: #fff;
+    border-radius: 50%;
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 0 0 12px 6px rgba(0, 0, 0, 0.2);
+
+    .aboutimg {
+        max-width: 200px;
+        width: 100%;
+        height: 200px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+}

@@ -1,0 +1,75 @@
+.orders-page-container {
+    padding-top: 2rem;
+    overflow-x: hidden;
+}
+
+.text-success {
+    color: #0f5132 !important;
+}
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+}
+
+.modal-content {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.table th {
+    font-weight: 600;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.x-small {
+    font-size: 0.75rem;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+.text-light {
+    color: #e9ecef !important;
+}
+
+/* Custom Scrollbar for Modal Table */
+.table-responsive::-webkit-scrollbar {
+    height: 6px;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb:hover {
+    background: #28a745;
+}
+
+@media (max-width: 768px) {
+    .h1 {
+        font-size: 1.5rem;
+    }
+
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .text-end {
+        text-align: left !important;
+        margin-top: 10px;
+    }
+}

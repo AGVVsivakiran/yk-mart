@@ -1,0 +1,20 @@
+:root {
+  /* Brand Colors */
+  --primary-green: #28a745;
+  --nav-bg-green: #16a249;     /* Exact green from reference */
+  
+  /* Search Button (Mustard/Orange) */
+  --search-btn-bg: #dcb13e;    
+  --search-btn-hover: #c69f35;
+  
+  /* Cart Button (Dark Green) */
+  --cart-btn-bg: #155724;
+  --cart-btn-count: #043710;
+  
+  /* Text */
+  --text-dark: #333333;
+  --text-white: #ffffff;
+  
+  /* Layout */
+  --bg-white: #ffffff;
+}
